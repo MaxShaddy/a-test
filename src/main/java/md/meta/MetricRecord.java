@@ -4,6 +4,12 @@ import java.time.LocalDateTime;
 
 public class MetricRecord {
 	
+	public enum MetricType {
+		CAPTCHA_REQUEST,
+		CAPTCHA_RESULT,
+		CAPTCHA_ERROR
+	}
+	
 	private MetricType type;
 	
 	private LocalDateTime dateTime;
