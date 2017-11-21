@@ -9,6 +9,10 @@ public class ProductSortApp {
 
 	public static void main(String[] args) {
 		
+		String dd = null;
+		
+		System.out.println( dd.isEmpty()) ;
+		
 		SortedMap<String, String> lhm = new ConcurrentSkipListMap<>();
 		lhm.put("000", "Zero 1");
 		lhm.put("001", "One  1");
